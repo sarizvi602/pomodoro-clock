@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Clock</title>
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <audio id="buzzSound" src="BUZZER.WAV" type: "audio/wav"></audio>
+
+<div class="container text-center">
+  <div class="clockBody">
+    <h1>Pomodoro Clock</h1>
+    <div class="row">
+      <!--Break Area-->
+      <div class="col-xs-6 col-md-6 col-sm-6 col-lg-6">
+        <h3 class="breakTitle">Break Length</h3>
+        <div class="row">
+          <div class="col-xs-4 col-md-4 col-sm-4 col-lg-4">
+            <a class="btn btn-info" id="breakMinus">&minus;</a>
+          </div>
+          <div class="col-xs-4 col-md-4 col-sm-4 col-lg-4">
+            <div id="breakNum">5</div>
+          </div>
+          <div class="col-xs-4 col-md-4 col-sm-4 col-lg-4">
+            <a class="btn btn-info" id="breakPlus">&plus;</a>
+          </div>
+        </div>
+      </div>
+      <!--Timer Area-->
+      <div class="col-xs-6 col-md-6 col-sm-6 col-lg-6">
+        <h3 class="timerTitle">Timer Length</h3>
+        <div class="row">
+          <div class="col-xs-4 col-md-4 col-sm-4 col-lg-4">
+            <a class="btn btn-info" id="timerMinus">&minus;</a>
+          </div>
+          <div class="col-xs-4 col-md-4 col-sm-4 col-lg-4">
+            <div id="timerNum">25</div>
+          </div>
+          <div class="col-xs-4 col-md-4 col-sm-4 col-lg-4">
+            <a class="btn btn-info" id="timerPlus">&plus;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="annBrk"></div>
+    <div id="clockArea">25:00</div>
+    <div class="row">
+      <!--Play/Pause Button-->
+      <div class="col-xs-6 col-md-6 col-sm-6 col-lg-6">
+        <a class="btn btn-primary btn-huge" id="playPause"><i class="fa fa-play" aria-hidden="true"></i><i class="fa fa-pause" aria-hidden="true"></i></a>
+      </div>
+      <!--Reset Button-->
+      <div class="col-xs-6 col-md-6 col-sm-6 col-lg-6">
+        <a class="btn btn-primary btn-huge" id="resetBtn"><i class="fa fa-undo" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+  <!--Footer-->
+  <div id="footer" class="container-fluid">
+    <h4>Written and coded by <strong>Syed Rizvi</strong></h4>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

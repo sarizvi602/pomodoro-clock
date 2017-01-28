@@ -1,0 +1,104 @@
+body {
+  background-image: url('https://images2.alphacoders.com/708/708647.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.clockBody {
+  background-color: black;
+  color: white;
+  width: 70%;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  border-radius: 10%;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.breakTitle {
+  color: red;
+}
+
+#breakNum {
+  font-size: 30px;
+  color: red;
+  padding-top: 1px;
+}
+
+#breakPlus {
+  float: left;
+  font-size: 25px;
+  padding-right: 20px;
+  border-radius: 0 100% 100% 0;
+}
+
+#breakMinus {
+  float: right;
+  font-size: 25px;
+  padding-left: 20px;
+  border-radius: 100% 0 0 100%;
+}
+
+.timerTitle {
+  color: #005800;
+}
+
+#timerMinus {
+  float: right;
+  font-size: 25px;
+  padding-left: 20px;
+  border-radius: 100% 0 0 100%;
+}
+
+#timerNum {
+  font-size: 30px;
+  padding-top: 1px;
+  color: #005800;
+}
+
+#timerPlus {
+  float: left;
+  font-size: 25px;
+  padding-right: 20px;
+  border-radius: 0 100% 100% 0;
+}
+
+#footer{
+  color: white;
+}
+
+#clockArea {
+  font-size: 80px;
+  color: #005800;
+  height: 130px;
+}
+
+.btn-huge {
+  border-radius: 20px;
+}
+
+.fa {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.fa-undo {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+#annBrk {
+  padding-top: 20px;
+  font-size: 30px;
+  color: red;
+  display: block;
+  height: 65px;
+}
